@@ -14,14 +14,17 @@ PACKAGES INSTALLED IN PYTHON
 5. Jsonify
 
 INSTALLATION
+
 Considering Python is installed and configured, type-
 pip install flask flask-jsonpify flask-sqlalchemy flask-restful jsonify SQlite3
 
 DATABASE
+
 Chinook.db file is provided.You can check file using command "sqlite3 chinook.db". This command will connect you to the database for usage of it in program.
 I have taken this database file from http://www.sqlitetutorial.net/sqlite-sample-database website.
 
 PYTHON CODE
+
 server.py file is provided. Just Execute it using command "python server.py".This will create 3 routes in your browser-
 
 Route 1 -->http://127.0.0.1:5002/employees 
@@ -36,5 +39,6 @@ This will show details of employee whose employee Id is = 8.
 The format of data you will be getting in browser will json.
 
 ABOUT
+
 This is my First Github commit so please just let me know if there is any flaw, feel free to question and ask anything regarding this project.
 I have refered to https://impythonist.wordpress.com/2015/07/12/build-an-api-under-30-lines-of-code-with-python-and-flask blog for this,special thanks to it.
